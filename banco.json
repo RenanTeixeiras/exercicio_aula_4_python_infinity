@@ -1,0 +1,14 @@
+{
+    "usuarios": [
+        "Renan",
+        "Renan",
+        "guilherme",
+        "garrafa"
+    ],
+    "senhas": [
+        "scrypt:32768:8:1$95slRzZ345IpBgp7$81304bcd8a474d13cac899eb0f99cc41b2d506d9449b4ff021050362301b8575f357ed363092fc1fe21d342f485287a9aecb85ffc7aea99c0f3917e3c5f77774",
+        "scrypt:32768:8:1$SaJAMPqMZZVf0Rf6$78ee763ebd2dcb11c0e0dffa8123e99fa3cb9ef0fc018e1daf1ea5327fc534412ac310ac1fd2734d51e1bd164b9515bd35fda875a26064580080ab23af14fe54",
+        "scrypt:32768:8:1$hGoy0RTyTNXz3Tnf$f879442327a1171af20481fb9c382b462e4f7301dd0c8df3e87b4758b28009b2e2dec6b89775503321dcd51ed9c5374407cc263a3cf00a1f766494e30b509f1b",
+        "scrypt:32768:8:1$xXnrKaHqtPT2KPOJ$62ba518845478b21332908fd364fcc0cf5edc84e329f533e669f5391ccfdf862ef371d48dc5b3cc912d9466af4d33a0f402e853bebbafa094028a5955640c906"
+    ]
+}
