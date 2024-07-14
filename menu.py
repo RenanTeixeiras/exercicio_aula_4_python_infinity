@@ -17,7 +17,7 @@ def solicitar_senha():
 def cadastrar():
     banco = ler_json()
     usuario = solicitar_usuario()
-    senha = solicitar_senha()S
+    senha = solicitar_senha()
     from werkzeug.security import generate_password_hash
     senha = generate_password_hash(senha)
 
@@ -49,6 +49,20 @@ def fazer_login():
 
     print('LOGIN EFETUADO COM SUCESSO')
 
-fazer_login()
+escolhas = {
+    '1': cadastrar,
+    '2': fazer_login
+}
 
+def menu():
+    print('DIGITE A OPÇÃO DESEJADA: ')
+    print('1 - CADASTRAR-SE')
+    print('2 - LOGAR')
+    while True:
+        opcao = input('-> ')
+        if opcao not in ['1','2']:
+            print('Opção inválida.')
+        else:
+            break
         
+    escolhas[opcao]()
